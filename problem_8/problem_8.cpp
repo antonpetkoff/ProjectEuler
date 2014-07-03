@@ -22,7 +22,8 @@ int main()
 	clock_t start = clock();
 	double duration = 0;
 	
-	int i = 12, product = 1, max = 0;
+	int i = 12;
+	__int64 product = 1, max = 0;
 	while(i < 1000)
 	{
 		for(int j = 0; j <= 12; ++j)
